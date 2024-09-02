@@ -34,7 +34,6 @@ public class Main {
             somaPrecos += item.getPreco();
         }
 
-
         double precoMedio = somaPrecos / listaDeProdutos.size();
         System.out.printf("Preço médio dos produtos: %.2f\n", precoMedio);
     }

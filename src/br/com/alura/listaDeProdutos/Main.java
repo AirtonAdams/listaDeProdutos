@@ -28,6 +28,5 @@ public class Main {
 
         System.out.println(listaDePereciveis);
         System.out.println("Perecivel na posição 0: " + listaDePereciveis.get(0));
-
     }
 }

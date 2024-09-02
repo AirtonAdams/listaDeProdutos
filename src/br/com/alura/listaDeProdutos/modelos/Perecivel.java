@@ -12,7 +12,4 @@ public class Perecivel extends Produto {
   public String toString() {
     return String.format("Perecivel [nome= %s, Preco= %.2f, Quantidade= %.3f, Validade= %d dias]\n", getNome(), getPreco(), getQuantidade(), validade);
   }
-
-  
-
 }

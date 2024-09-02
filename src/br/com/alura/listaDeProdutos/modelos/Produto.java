@@ -27,10 +27,4 @@ public class Produto {
   public String toString() {
     return String.format("Produto [nome= %s, preco= %.2f, quantidade= %.3f]\n", nome, preco, quantidade);
   }
-
-
-
-
-
-
 }

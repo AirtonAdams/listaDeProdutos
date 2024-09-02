@@ -28,5 +28,14 @@ public class Main {
 
         System.out.println(listaDePereciveis);
         System.out.println("Perecivel na posição 0: " + listaDePereciveis.get(0));
+
+        double somaPrecos = 0;
+        for (Produto item : listaDeProdutos) {
+            somaPrecos += item.getPreco();
+        }
+
+
+        double precoMedio = somaPrecos / listaDeProdutos.size();
+        System.out.printf("Preço médio dos produtos: %.2f\n", precoMedio);
     }
 }
